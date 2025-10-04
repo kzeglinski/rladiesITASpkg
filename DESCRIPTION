@@ -3,8 +3,19 @@ Title: Functions and data for RLadies Melbourne It Takes a Spark workshop
 Version: 0.0.0.9000
 Authors@R: 
     person("RLadies", "Melbourne", , "rladiesmelbourne@gmail.com", role = c("aut", "cre"))
-Description: A package to store helper functions and data for our annual event at It Takes A Spark - Become a Disease Detective - a workshop to introduce school students to coding, R and epidemiology.
+Description: A package to store helper functions and data for our annual event at 
+    It Takes A Spark - Become a Disease Detective - a workshop to introduce school students 
+    to coding, R and epidemiology. These helper functions are mostly simple wrappers around
+    ggplot2 functions, so students don't need to grasp the intricacies of that package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Imports:
+    assertthat
+Depends: 
+    R (>= 3.5),
+    dplyr,
+    ggmap,
+    ggplot2
+LazyData: true
