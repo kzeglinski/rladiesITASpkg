@@ -1,5 +1,5 @@
 To install:
-
+```
 if (!requireNamespace("remotes", quietly = TRUE)) {
   # If not installed, install the package
   install.packages("remotes")
@@ -7,3 +7,4 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 
 remotes::install_github("kzeglinski/rladiesITASpkg")
 library(rladiesmelbITAS)
+```
